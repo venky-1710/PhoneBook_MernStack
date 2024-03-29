@@ -1,0 +1,31 @@
+client --> Dir used for frontend(React)
+server --> Dir used for backend(Express, mongoose)
+npm --> Node Package Manager
+
+>> npm install init:
+- the "npm init" or "npm init -y" command helps you create a package.json file 
+that acts as a manifest for your project, providing essential metadata, dependency management,
+and script automation.
+
+- After installing open the package.json file and remove text line and replace with 
+"start":"node index.js"
+
+>> npm install express mongoose cors(Cross-Origin Resource Sharing) :
+- the "npm install express mongoose cors" command is used to install three packages
+as dependencies in your Node.js project
+
+>> Express is a back-end web application framework for Node.js.
+   It is designed for building web and mobile applications.
+   It has been called the de facto standard server framework for Node.js.
+>> Mongoose is an Object Data Modeling (ODM) library for MongoDB in Node.js.
+   which stores the data in a database.
+>> The CORS(Cross-Origin-Resource-Sharing) which will help us to build a connection with the front end.
+
+>> Create Node Server:
+To create a Node server with express we need to require the express library first and
+then we need to define a Port number and then create a server with the help of app.listen()
+
+>>> npm install -g npm@latest -- command is used to install the latest version of the Node Package Manager (npm)
+>>> npm create-react-app . -- command creates a new React project in the current directory with a standard directory structure and configuration for you to build your React application.
+
+>>> npm i axios -- command installs the axios package, which is a library used to make HTTP requests from JavaScript
